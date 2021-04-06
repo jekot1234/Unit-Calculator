@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.lab.MainController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Input" />
+      <TextField fx:id="inputTextField" layoutX="14.0" layoutY="31.0" prefHeight="25.0" prefWidth="310.0" />
+      <Label layoutX="14.0" layoutY="63.0" text="Results" />
+      <TextArea fx:id="resultTextArea" layoutX="14.0" layoutY="80.0" prefHeight="274.0" prefWidth="310.0" />
+      <Button fx:id="calculateButton" layoutX="331.0" layoutY="31.0" mnemonicParsing="false" onAction="#calculate" prefHeight="25.0" prefWidth="89.0" text="Calculate" />
+      <Button fx:id="clearButton" layoutX="15.0" layoutY="361.0" mnemonicParsing="false" onAction="#clearOutput" prefHeight="25.0" prefWidth="310.0" text="Clear" />
+      <Button fx:id="addButton" layoutX="331.0" layoutY="205.0" mnemonicParsing="false" onAction="#openAddWindow" prefHeight="25.0" prefWidth="89.0" text="Add" />
+      <Button fx:id="unitsButton" layoutX="332.0" layoutY="361.0" mnemonicParsing="false" onAction="#openFindUnitsWindow" prefHeight="25.0" prefWidth="89.0" text="Units" />
+   </children>
+</AnchorPane>
